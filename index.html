@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Landing Page</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <link
@@ -23,15 +24,15 @@
         </div>
         <nav>
           <ul>
-            <li><a id="nav-link"></a></li>
-            <li><a id="nav-link"></a></li>
-            <li><a id="nav-link"></a></li>
+            <li><a id="nav-link">title</a></li>
+            <li><a id="nav-link">qualities</a></li>
+            <li><a id="nav-link">contact us</a></li>
           </ul>
         </nav>
       </div>
       <!-- BODY -->
       <div id="body">
-        <div id="intro">
+        <section id="intro">
           <div id="intro-image">
             <img
               src="https://i.postimg.cc/yDwdXSxg/trombone.jpg"
@@ -54,8 +55,8 @@
             <h1>Handmade,<br />High Quality<br />Trombones</h1>
             <p>Sounds great! <em class="fas fa-music"></em></p>
           </div>
-        </div>
-        <div id="qualities">
+        </section>
+        <section id="qualities">
           <h2>Our qualities</h2>
           <ul>
             <li>
@@ -71,8 +72,18 @@
               <p>Top quality</p>
             </li>
           </ul>
-        </div>
-        <div id="contact">
+        </section>
+        <section id="video">
+          <h2>Listen the magic</h2>
+          <iframe
+            id="video"
+            title="trombones video"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section id="contact">
           <h2>Get in touch</h2>
           <p>Give us your email and one of our specialists will contact you</p>
           <form id="form" action="https://www.freecodecamp.com/email-submit">
@@ -83,7 +94,7 @@
             />
             <input type="submit" id="submit" class="btn" />
           </form>
-        </div>
+        </section>
       </div>
     </div>
   </body>
