@@ -1,0 +1,21 @@
+#header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  min-height: 75px;
+  padding: 0px, 20px;
+}
+
+.logo {
+  width: 60vw;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  list-style: none;
+  padding: 5px;
+}
